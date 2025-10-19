@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Order Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      padding: 20px;
+    }
+    .result-box {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h3>🍕 Your Pizza Order Summary 🍕</h3>
+  <div class="result-box">
+    <p><b>Name:</b> <span id="rName"></span></p>
+    <p><b>Address:</b> <span id="rAddress"></span></p>
+    <p><b>Phone:</b> <span id="rPhone"></span></p>
+    <p><b>Email:</b> <span id="rEmail"></span></p>
+    <p><b>Crust:</b> <span id="rCrust"></span></p>
+    <p><b>Toppings:</b> <span id="rToppings"></span></p>
+    <p><b>Quantity:</b> <span id="rQuantity"></span></p>
+  </div>
+
+  <script>
+    const data = JSON.parse(localStorage.getItem("pizzaData"));
+    if (data) {
+      document.getElementById("rName").textContent = data.name;
+      document.getElementById("rAddress").textContent = data.address;
+      document.getElementById("rPhone").textContent = data.phone;
+      document.getElementById("rEmail").textContent = data.email;
+      document.getElementById("rCrust").textContent = data.crust;
+      document.getElementById("rToppings").textContent = data.toppings.join(", ");
+      document.getElementById("rQuantity").textContent = data.quantity;
+    }
+  </script>
+</body>
+</html>
