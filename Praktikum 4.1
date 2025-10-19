@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pemrograman Web</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            height: 100%;
+            background-color: #f0f0f0; 
+        }
+
+        .page-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        .header {
+            background-color: #00FFFF;
+            padding: 15px;
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .main-content-area {
+            display: flex;
+            flex: 1; 
+        }
+
+        .sidebar {
+            width: 200px; 
+            background-color: #EFEFEF; 
+            padding: 20px;
+            border-right: 2px solid #ccc;
+        }
+
+        .sidebar ul {
+            list-style-type: none; 
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px; 
+        }
+
+        .sidebar ul li a {
+            text-decoration: none; 
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .sidebar ul li a:hover {
+            color: #0056b3; 
+        }
+
+        .content {
+            flex: 1; 
+            background-color: #FFDFE2; 
+            padding: 20px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ffb6c1;
+        }
+
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+
+        img {
+            width: 60%;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="header">
+            <h1>Praktikum Pemrograman Web</h1>
+            <p>Dhiya Nailah Rizqya 0110225095 - Teknik Informatika</p>
+        </header>
+
+        <div class="main-content-area">
+            <aside class="sidebar">
+                <ul>
+                  <li><a href="#praktikum1">Praktikum1</a></li>
+                    <li><a href="#praktikum2">Praktikum2</a></li>
+                </ul>
+            </aside>
+
+            <main class="content">
+                <h2>Daftar Pembelian Cookies Cooqyas</h2>
+                <table>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Pembeli</th>
+                        <th>Jenis Cookies</th>
+                        <th>Jumlah</th>
+                        <th>Total Harga</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Dhiya</td>
+                        <td>Choco Chip</td>
+                        <td>3</td>
+                        <td>Rp45.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Naila</td>
+                        <td>Red Velvet</td>
+                        <td>2</td>
+                        <td>Rp30.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Rizqya</td>
+                        <td>Matcha</td>
+                        <td>4</td>
+                        <td>Rp60.000</td>
+                    </tr>
+                </table>
+
+                <!-- Praktikum 1 -->
+                <section id="praktikum1">
+                    <h2>Praktikum 1</h2>
+                    <p>Demo tampilan hasil praktikum 1:</p>
+                    <a href="https://ibb.co.com/Rkt1QSBC">
+                        <img src="https://i.ibb.co.com/Rkt1QSBC/F50-E2-C32-02-F6-40-B5-8-ECF-AAE142003988.jpg" alt="Praktikum 1">
+                    </a>
+                </section>
+
+                <!-- Praktikum 2 -->
+                <section id="praktikum2">
+                    <h2>Praktikum 2</h2>
+                    <p>Demo tampilan hasil praktikum 2:</p>
+                    <a href="https://ibb.co.com/NvrHzTL">
+                        <img src="https://i.ibb.co.com/twtGhhGk/64097120-8-E56-4-E33-8136-2-FEA5-CD07165.jpg" alt="Praktikum 2">
+                    </a>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer">
+            Design By Naqya ©️ 2025
+        </footer>
+    </div>
+
+</body>
+</html>
