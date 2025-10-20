@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Dhiya Nailah Rizqya</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #ffe6f2;
+      color: #333;
+      margin: 40px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* FOTO UTAMA */
+    .foto-utama {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .foto-utama img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffb6c1;
+      box-shadow: 0 0 10px rgba(255,182,193,0.5);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid #ffb6c1;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      color: #d63384;
+      margin: 10px 0 5px;
+      font-size: 30px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .biodata {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-top: 15px;
+      text-align: left;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .desc {
+      margin: 20px auto;
+      font-size: 16px;
+      text-align: justify;
+      max-width: 800px;
+    }
+
+    /* BAGIAN MULTIMEDIA */
+    .multimedia {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 260px;
+      height: 460px;
+      border-radius: 10px;
+      border: 2px solid #ffb6c1;
+      flex-shrink: 0;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 220px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ffcce0;
+    }
+
+    .attachments {
+      border-top: 2px solid #ffb6c1;
+      padding-top: 15px;
+    }
+
+    .attachments h3 {
+      color: #d63384;
+      margin-bottom: 10px;
+    }
+
+    .attachments a {
+      display: block;
+      color: #d63384;
+      text-decoration: none;
+      margin: 5px 0;
+    }
+
+    .attachments a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .multimedia {
+        flex-direction: column;
+        align-items: center;
+      }
+      iframe {
+        width: 90%;
+        height: 400px;
+      }
+      .gallery img {
+        width: 45%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="foto-utama">
+      <img src="https://i.ibb.co.com/gbDk28bY/d5e5f31c-64c7-4f51-b7a4-e05dcda67e9a.jpg" alt="Foto Profil Utama">
+    </div>
+
+    <header>
+      <h1>Dhiya Nailah Rizqya</h1>
+      <p><b>Mahasiswa Semester 1 - Teknik Informatika</b></p>
+
+      <div class="biodata">
+         <p><b>Tempat, Tanggal lahir:</b> Depok, 22 Oktober 2006.</p>
+        <p><b>Alamat:</b> Pondok Rajeg, Cibinong, West Java.</p>
+        <p><b>Email:</b> dhiyanailahrizqya@gmail.com</p>
+        <p><b>No Telp:</b> 0896 7728 0243</p>
+        <p><b>Hobi:</b> Hiking</p>
+        <p><b>Pendidikan:</b> STT Nurul Fikri</p>
+      </div>
+    </header>
+
+    <section class="desc">
+      <p>Aku adalah lulusan SMK jurusan Pemasaran yang lulus pada bulan Mei 2025. Setelah lulus, aku sempat bekerja di beberapa bidang yang berhubungan dengan pemasaran dan pelayanan pelanggan. Dari pengalaman itu, aku belajar banyak tentang komunikasi, kreativitas, serta cara memahami kebutuhan orang lain dalam dunia kerja.</p>
+      <p>Selain itu, aku suka membuat desain di Canva dan mengedit video di CapCut. Ke depannya, aku tertarik untuk memperdalam bidang keamanan siber (cyber security) dan pengembangan web.</p>
+    </section>
+
+    <section class="multimedia">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/LXKQFBLUub8?si=nnKEEzplYuaf5ENl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <div class="gallery">
+        <img src="https://i.ibb.co.com/v4Y9Zr99/IMG-8895.jpg" alt="Foto 1">
+        <img src="https://i.ibb.co.com/tGzW5Lb/1c694c66-ad7a-4b3c-b4c9-060509fc2d21.jpg" alt="Foto 2">
+      </div>
+    </section>
+
+    <section class="attachments">
+      <h3>Attachments / Link Download</h3>
+      <a href="https://i.ibb.co.com/gbDk28bY/d5e5f31c-64c7-4f51-b7a4-e05dcda67e9a.jpg" target="_blank">Download Foto Utama</a>
+      <a href="https://www.youtube.com/embed/LXKQFBLUub8?si=nnKEEzplYuaf5ENl" target="_blank">Lihat Video di YouTube</a>
+      <a href="https://i.ibb.co.com/v4Y9Zr99/IMG-8895.jpg" target="_blank">Download Foto 1</a>
+      <a href="https://i.ibb.co.com/tGzW5Lb/1c694c66-ad7a-4b3c-b4c9-060509fc2d21.jpg" target="_blank">Download Foto 2</a>
+    </section>
+  </div>
+</body>
+</html>
+    
